@@ -9,7 +9,7 @@ import {
   Bar,
 } from "recharts";
 
-// Custom Candlestick Bar Component
+
 const CandlestickBar = ({ x, y, width, height, fill, payload }) => {
   const { open, high, low, close } = payload;
 
